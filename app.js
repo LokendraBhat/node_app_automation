@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 var USER = process.env.USER;
 app.get('/name', (req, res) => {
   const name = req.query.name || 'World';
-  res.send(`Hello ${USER} \n`);
+  res.send(`Hello ${USER}! Nice to meet you\n`);
 });
 
 // Start the server
