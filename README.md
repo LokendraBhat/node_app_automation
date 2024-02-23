@@ -1,6 +1,6 @@
 # Requirements
 Download used packages using package.json file automatically<br>
-</code>npm install</code>
+<code>npm install</code>
 
 # Build image
 <code>docker build -t node-app:v3.0 .</code>
