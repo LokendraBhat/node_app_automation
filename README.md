@@ -15,3 +15,5 @@ Line 3. Copy all files and folders from the current directory to the working dir
 Line 4. Install all packages include in the package.json<br>
 Line 5. Expose port 8000 inside container<br>
 Line 6. Run node app after running container<br>
+
+# To automation you can checkout Jenkinsfile
