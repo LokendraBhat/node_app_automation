@@ -2,7 +2,6 @@ version: '3.7'
 
 services:
   node-app:
-    name: nodeapp
     image: node-app:v3.0
     ports:
       - 8092:8000
