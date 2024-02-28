@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   node-app:
-    image: node-app:v3.0
+    image: node-app:v${VERSION:-3.0}
     ports:
       - 8092:8000
     volumes:
